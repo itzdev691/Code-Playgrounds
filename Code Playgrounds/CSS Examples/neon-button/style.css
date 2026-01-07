@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Lost Tumbler';
+    src: url('/lost_tumbler copy/Lost Tumbler.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Vermin Vibes';
+    src: url('/vermin_vibes_v copy/Vermin Vibes V.otf') format('opentype');  
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+#LostTumbler-Button {
+    background-color: black;
+    border: white solid 2px;
+    border-radius: 10px;
+    color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Lost Tumbler', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+.Btn-Hover:hover {
+    color: #ffffff;
+    box-shadow:
+        0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+#Lost-Tumbler {
+    font-family: 'Lost Tumbler', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: white 1px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#VerminVibes-Button {
+    background-color: black;
+    border: white solid 2px;
+    border-radius: 10px;
+    color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Vermin Vibes', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+#Vermin-Vibes {
+    font-family: 'Vermin Vibes', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: white 1px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.Vermin-Vibes-section {
+    margin-top: 50px;
+}

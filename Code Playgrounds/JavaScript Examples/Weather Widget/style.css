@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+h1 {
+    font-size: 40px;
+}
+.weather{
+    background-color: hsla(205, 60%, 4%, 0.96);
+    border: solid 1px white;
+    border-radius: 15px;
+    width: 250px;
+}
+#city {
+    margin: 5px;
+}
